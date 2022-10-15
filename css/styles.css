@@ -1,0 +1,293 @@
+
+.about-row{
+  margin: 0;
+  height: 100vh;
+}
+.address{
+  background-color: #2A0EFD;
+  padding: 1rem 0;
+  color: white;
+  overflow: hidden;
+}
+
+.animate-bottom{
+  transform: translateY(100%);
+  height: 10vh;
+}
+.col a{
+  text-decoration: none;
+  color: white;
+}
+
+.bottom{
+  background-color: #ff4c68;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.bottom-text{
+  font-size: 3vh;
+
+}
+
+.card-text{
+  text-align: justify;
+}
+
+.catchPhrase{
+  margin-bottom: 0;
+  font-size: 2vw;
+}
+.coy-name{
+  align-self: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer{
+  background-color: #2A0EFD;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+h1.col{
+  display: inline-block;
+}
+
+/*Enlarge the h1 of OLIVE KITCHEN for large screens, also see it in media queries for smaller screens */
+
+h1.oliveKitchen{
+  font-size: 7vw;
+}
+
+h3.welcome{
+  width: 80vw;
+  font-size: 5vw;
+  position: absolute;
+  top: 26%;
+  z-index: 2;
+}
+.section-header h1{
+  padding: 0 5px;
+}
+.transparent h1{
+  color: white;
+}
+
+.header{
+  /*height: 10vh;*/
+  background-color: #FDC10E ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+
+/* styling the homepage page */
+
+.home-page {
+  margin: 0;
+  font-family: 'Montserrat', serif;
+  height: 100vh ;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  position: relative;
+
+}
+.home-page-background{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/pee.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+}
+
+/* section to Create the parallax scrolling effect */
+
+.image-scrollover-effect-1{
+  padding: 0;
+  background-image: url("../images/indomie.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-scrollover-effect-2{
+padding: 0;
+background-image: url("../images/assorted-foods.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.links{
+  height: 100%;
+  display: flex;
+
+  color: white;
+
+}
+.logo span{
+  color: yellow;
+}
+
+.logo{
+  font-family: verdana, sans-serif;
+  color: #ff4c68;
+  margin-bottom: 0;
+}
+
+.middleContent{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  /*background-image: url("../images/chops.jpg");
+  background-position: center;
+  background-size: 190%;
+  background-repeat: no-repeat;*/
+}
+
+.middle {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  /*background-image: url("../images/chops.jpg");
+  background-size: cover;*/
+
+}
+
+.oliveKitchen span{
+  color: yellow;
+}
+
+.oliveKitchen{
+  font-family: verdana, sans-serif;
+  color: #ff4c68;
+  margin-bottom: 0;
+}
+.ourservices, .ourmenu{
+  padding: 3%;
+  text-align: center;
+}
+
+.our-restaurant-image{
+  padding: 0;
+  background-image: url("../images/combo.jpg");
+  background-size: cover;
+  /* Full height */
+  height: 100%;
+}
+
+.our-restaurant{
+  background-color: #04AA6D ;
+  text-align: justify;
+  padding: 5%;
+  color: white;
+
+}
+.our-chef-image{
+  padding: 0;
+  background-image: url("../images/chef.jpg");
+  background-size: cover;
+  /* Full height */
+  height: 100%;
+}
+.our-chef{
+  background-color: #04AA6D ;
+  text-align: justify;
+  padding: 5%;
+  color: white;
+}
+
+.ourmenu{
+  background-color: #FD2A0E;
+}
+
+.section-body{
+  margin-top: 1%;
+}
+
+.section-header{
+  display: inline-block;
+  border-style: solid;
+  text-align: center;
+  background-color: white;
+
+}
+
+.sidebar{
+ background-color: #0EFD2A;
+ width: 33.33vw;
+}
+
+.transparent{
+  height: 80vh ;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-links{
+  display: flex;
+  float: right;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav .active {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.welcome{
+  display: inline;
+  align-self: center;
+}

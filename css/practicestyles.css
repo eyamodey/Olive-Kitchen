@@ -1,0 +1,132 @@
+/* styling the page */
+
+body {
+    margin: 0;
+
+    height: 100%;
+    width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: 100%;
+  text-align: center;
+
+}
+.main-container{
+  padding: 0;
+  background-image: url("../images/assorted-foods.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for smaller screens.*/
+@media only screen and (max-device-width: 480px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+#header {
+  background-image: url("../images/jollof.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.backdrop{
+
+  padding: 0;
+}
+
+.resized-fluid-containers{
+  padding: 2% 10%;
+}
+
+.resized-fluid-containers-backdrop{
+  background-color: white ;
+}
+
+.transparent{
+  height: 80vh ;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-page{
+  font-family: 'Montserrat', serif;
+  height: 100vh ;
+  overflow: hidden;
+}
+
+.header{
+  height: 10vh;
+  background-color: #FD2A0E;
+}
+
+.links{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+
+}
+
+.middleContent{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middle {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.myButton{
+  align-self: center;
+}
+
+.welcome{
+  display: inline;
+  align-self: center;
+}
+
+.sidebar{
+ background-color: #0EFD2A;
+ width: 33.33vw;
+}
+
+.animate-footer{
+  transform: translateY(100%);
+  height: 15vh;
+}
+
+.footer{
+  background-color: #2A0EFD;
+}
+
+.oliveKitchen span{
+  color: yellow;
+}
+
+.oliveKitchen{
+  font-family: verdana, sans-serif;
+  color: #ff4c68;
+  margin-bottom: 0;
+}
+
+.catchPhrase{
+  margin-bottom: 0;
+}
