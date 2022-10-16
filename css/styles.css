@@ -12,7 +12,7 @@
 
 .animate-bottom{
   transform: translateY(100%);
-  height: 10vh;
+  height: 10%;
 }
 .col a{
   text-decoration: none;
@@ -87,7 +87,7 @@ h3.welcome{
 }
 
 
-/* styling the homepage page */
+/* styling the homepage page for mobile and laptop size devices */
 
 .home-page {
   margin: 0;
@@ -102,6 +102,15 @@ h3.welcome{
   position: relative;
 
 }
+
+@media screen and (max-width: 1200px){
+
+.home-page {
+  height: 87.5vh ;
+
+}
+}
+
 .home-page-background{
   position: absolute;
   top: 0;
