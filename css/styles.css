@@ -1,117 +1,116 @@
-
-.about-row{
+.about-row {
   margin: 0;
   height: 100vh;
 }
-.address{
+
+.address {
   background-color: #2A0EFD;
   padding: 1rem 0;
   color: white;
   overflow: hidden;
 }
 
-.animate-bottom{
+.animate-bottom {
   transform: translateY(100%);
   height: 10%;
 }
-.col a{
+
+.col a {
   text-decoration: none;
   color: white;
 }
 
-.bottom{
+.bottom {
   background-color: #ff4c68;
   color: white;
   align-items: center;
   justify-content: center;
   display: flex;
-
 }
 
-.bottom-text{
+.bottom-text {
   font-size: 3vh;
-
 }
 
-.card-text{
+.card-text {
   text-align: justify;
 }
 
-.catchPhrase{
+.catchPhrase {
   margin-bottom: 0;
   font-size: 2vw;
 }
-.coy-name{
+
+.coy-name {
   align-self: center;
   position: absolute;
   z-index: 2;
 }
 
-.footer{
+.footer {
   background-color: #2A0EFD;
   text-align: center;
   padding: 1rem 0;
 }
 
-h1.col{
+h1.col {
   display: inline-block;
 }
 
 /*Enlarge the h1 of OLIVE KITCHEN for large screens, also see it in media queries for smaller screens */
-
-h1.oliveKitchen{
+h1.oliveKitchen {
   font-size: 7vw;
 }
 
-h3.welcome{
+h3.welcome {
   width: 80vw;
   font-size: 5vw;
   position: absolute;
   top: 26%;
   z-index: 2;
 }
-.section-header h1{
+
+.section-header h1 {
   padding: 0 5px;
 }
-.transparent h1{
+
+.transparent h1 {
   color: white;
 }
 
-.header{
+.header {
   /*height: 10vh;*/
-  background-color: #FDC10E ;
+  background-color: #FDC10E;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 3;
 }
 
-
 /* styling the homepage page for mobile and laptop size devices */
-
 .home-page {
   margin: 0;
   font-family: 'Montserrat', serif;
-  height: 100vh ;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-
   text-align: center;
-
   position: relative;
-
 }
 
-@media screen and (max-width: 1350px){
-
-.home-page {
-  height: 89vh ;
-
+@media screen and (max-width: 1350px) {
+  .home-page {
+    height: 89vh;
+  }
 }
+@media screen and (max-width: 600px) {
+  .home-page {
+    height: 90vh;
+  }
 }
 
-.home-page-background{
+.home-page-background {
   position: absolute;
   top: 0;
   width: 100vw;
@@ -123,13 +122,11 @@ h3.welcome{
 }
 
 /* section to Create the parallax scrolling effect */
-
-.image-scrollover-effect-1{
+.image-scrollover-effect-1 {
   padding: 0;
   background-image: url("../images/indomie.jpg");
   /* Full height */
   height: 100%;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -137,45 +134,40 @@ h3.welcome{
   background-size: cover;
 }
 
-.image-scrollover-effect-2{
-padding: 0;
-background-image: url("../images/assorted-foods.jpg");
-/* Full height */
-height: 100%;
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.image-scrollover-effect-2 {
+  padding: 0;
+  background-image: url("../images/assorted-foods.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-.links{
+.links {
   height: 100%;
   display: flex;
-
   color: white;
-
 }
-.logo span{
+
+.logo span {
   color: yellow;
 }
 
-.logo{
+.logo {
   font-family: verdana, sans-serif;
   color: #ff4c68;
   margin-bottom: 0;
 }
 
-.middleContent{
+.middleContent {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
-
   text-align: center;
-
   /*background-image: url("../images/chops.jpg");
   background-position: center;
   background-size: 190%;
@@ -188,24 +180,24 @@ background-size: cover;
   justify-content: space-between;
   /*background-image: url("../images/chops.jpg");
   background-size: cover;*/
-
 }
 
-.oliveKitchen span{
+.oliveKitchen span {
   color: yellow;
 }
 
-.oliveKitchen{
+.oliveKitchen {
   font-family: verdana, sans-serif;
   color: #ff4c68;
   margin-bottom: 0;
 }
-.ourservices, .ourmenu{
+
+.ourservices, .ourmenu {
   padding: 3%;
   text-align: center;
 }
 
-.our-restaurant-image{
+.our-restaurant-image {
   padding: 0;
   background-image: url("../images/combo.jpg");
   background-size: cover;
@@ -213,57 +205,56 @@ background-size: cover;
   height: 100%;
 }
 
-.our-restaurant{
-  background-color: #04AA6D ;
+.our-restaurant {
+  background-color: #04AA6D;
   text-align: justify;
   padding: 5%;
   color: white;
-
 }
-.our-chef-image{
+
+.our-chef-image {
   padding: 0;
   background-image: url("../images/chef.jpg");
   background-size: cover;
   /* Full height */
   height: 100%;
 }
-.our-chef{
-  background-color: #04AA6D ;
+
+.our-chef {
+  background-color: #04AA6D;
   text-align: justify;
   padding: 5%;
   color: white;
 }
 
-.ourmenu{
+.ourmenu {
   background-color: #FD2A0E;
 }
 
-.section-body{
+.section-body {
   margin-top: 1%;
 }
 
-.section-header{
+.section-header {
   display: inline-block;
   border-style: solid;
   text-align: center;
   background-color: white;
-
 }
 
-.sidebar{
- background-color: #0EFD2A;
- width: 33.33vw;
+.sidebar {
+  background-color: #0EFD2A;
+  width: 33.33vw;
 }
 
-.transparent{
-  height: 80vh ;
+.transparent {
+  height: 80vh;
   display: flex;
-    align-items: center;
-    justify-content: center;
-
+  align-items: center;
+  justify-content: center;
 }
 
-.header-links{
+.header-links {
   display: flex;
   float: right;
 }
@@ -281,7 +272,6 @@ background-size: cover;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
 /* Change the color of links on hover */
@@ -296,7 +286,7 @@ background-size: cover;
   color: white;
 }
 
-.welcome{
+.welcome {
   display: inline;
   align-self: center;
 }
